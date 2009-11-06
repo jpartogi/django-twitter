@@ -1,6 +1,8 @@
 from datetime import datetime
+
 from django.conf import settings
 from django.core.cache import cache
+
 import twitter
 
 def latest_tweet( request ):
